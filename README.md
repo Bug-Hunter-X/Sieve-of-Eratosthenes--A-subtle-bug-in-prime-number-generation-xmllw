@@ -1,0 +1,4 @@
+# Sieve of Eratosthenes: A subtle bug in prime number generation
+This repository demonstrates a common bug encountered while implementing the Sieve of Eratosthenes algorithm in C++ for finding prime numbers. The bug lies in the way the algorithm handles memory allocation and access, specifically for large inputs.
+The `bug.cpp` file shows an implementation with the bug.  The `bugSolution.cpp` file provides a corrected and more efficient version. This solution addresses memory management and optimizes the algorithm for better performance.
+This example highlights the importance of careful memory handling and algorithmic optimization when dealing with larger datasets in C++.
